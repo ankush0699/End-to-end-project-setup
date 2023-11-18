@@ -1,5 +1,5 @@
-# THis is my end to end project. 
-# First initialize git
+# This is my end to end project. 
+# Let's first initialize git.
 ```
 git init
 ```
