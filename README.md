@@ -22,3 +22,13 @@ git pull
 ```
 bash your_file_name.sh
 ```
+
+```
+python setup.py install
+```
+
+#another way: you can mention -e in requirements.txt and run corresponding command.
+
+```
+pip install -r requirements.txt
+```
