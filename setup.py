@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-"""HYPEN_E_DOT='-e .'
+HYPEN_E_DOT='-e .'
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
@@ -12,13 +12,13 @@ def get_requirements(file_path:str)->List[str]:
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
 
-    return requirements"""
+    return requirements
 
 setup(
     name='DimondPricePrediction',
     version='0.0.1',
     author='sunny savita',
     author_email='sunny.savita@ineuron.ai',
-    install_requires=["scikit-learn","pandas","numpy"],
+    install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
